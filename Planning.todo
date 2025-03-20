@@ -1,0 +1,43 @@
+✔ Social Media Platform @done(25-03-20 18:45)
+    ✔ User @done(25-03-20 18:45)
+    ✔ Post @done(25-03-20 18:45)
+    ✔ Message @done(25-03-20 18:45)
+    ✔ Comment @done(25-03-20 18:45)
+    ✔ Like @done(25-03-20 18:46)
+
+✔ Library Management System @done(25-03-20 18:45)
+    ✔ Book @done(25-03-20 18:45)
+    ✔ Author @done(25-03-20 18:45)
+    ✔ Member @done(25-03-20 18:45)
+    ✔ Borrow Record @done(25-03-20 18:45)
+
+☐ Online Course Platform
+    ☐ User: name, email, password, role (student/teacher), enrolledCourses[]
+    ☐ Course: title, description, teacherId, lessons[]
+    ☐ Lesson: title, content, videoUrl, createdAt
+    ☐ Assignment: courseId, title, description, dueDate, createdAt
+    ☐ Submission: assignmentId, studentId, submittedAt, score
+    
+☐ Event Management System
+    ☐ Event: title, description, location, date, organizerId, attendees[]
+    ☐ Organizer: name, email, contactNumber
+    ☐ Attendee: name, email, registeredEvents[]
+    ☐ Ticket: eventId, attendeeId, price, seatNumber
+
+☐ Job Portal
+    ☐ Job: title, description, companyId, location, salaryRange, createdAt
+    ☐ Company: name, industry, location, website
+    ☐ Application: jobId, userId, resumeUrl, status, appliedAt
+    ☐ User: name, email, password, skills[], resumeUrl
+
+☐ Hotel Booking System
+    ☐ Hotel: name, location, rooms[], facilities[], rating
+    ☐ Room: hotelId, type, price, isAvailable, capacity
+    ☐ Booking: userId, roomId, checkInDate, checkOutDate, status
+    ☐ User: name, email, password, bookings[]
+
+☐ Movie Streaming Platform
+    ☐ User: name, email, password, watchlist[], history[]
+    ☐ Movie: title, genre, releaseDate, rating, duration
+    ☐ Review: movieId, userId, rating, comment, createdAt
+    ☐ Subscription: userId, planType, startDate, endDate
