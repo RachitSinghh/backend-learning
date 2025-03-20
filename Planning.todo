@@ -11,17 +11,19 @@
     ✔ Member @done(25-03-20 18:45)
     ✔ Borrow Record @done(25-03-20 18:45)
 
-☐ Online Course Platform
-    ☐ User: name, email, password, role (student/teacher), enrolledCourses[]
-    ☐ Course: title, description, teacherId, lessons[]
-    ☐ Lesson: title, content, videoUrl, createdAt
-    ☐ Assignment: courseId, title, description, dueDate, createdAt
-    ☐ Submission: assignmentId, studentId, submittedAt, score
-    
-☐ Event Management System
-    ☐ Event: title, description, location, date, organizerId, attendees[]
-    ☐ Organizer: name, email, contactNumber
-    ☐ Attendee: name, email, registeredEvents[]
+✔ Online Course Platform @done(25-03-21 02:43)
+    ✔ User: name, email, password, role (student/teacher), enrolledCourses[] @done(25-03-21 02:43)
+    ✔ Course: title, description, teacherId, lessons[] @done(25-03-21 02:43)
+    ✔ Lesson: title, content, videoUrl, createdAt @done(25-03-21 02:43)
+    ✔ Assignment: courseId, title, description, dueDate, createdAt @done(25-03-21 02:43)
+    ✔ Submission: assignmentId, studentId, submittedAt, score @done(25-03-21 02:43)
+    ✔ @done(25-03-21 02:43)
+
+
+✔ Event Management System @done(25-03-21 02:58)
+    ✔ Event: title, description, location, date, organizerId, attendees[] @done(25-03-21 02:58)
+    ✔ Organizer: name, email, contactNumber @done(25-03-21 02:58)
+    ✔ Attendee: name, email, registeredEvents[] @done(25-03-21 02:58)
     ☐ Ticket: eventId, attendeeId, price, seatNumber
 
 ☐ Job Portal

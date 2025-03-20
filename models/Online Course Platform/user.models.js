@@ -22,7 +22,11 @@ const userSchema = new mongoose.Schema(
             enum: ["student", "teacher"],
             required: true
         },
-        enrolledCourses:[]
+        enrolledCourses:[{
+            type:mongoose.Schema.Types.ObjectId,
+            ref: "Course",
+            required: true, 
+        }]
     }, 
     { timestamps: true }
 );
